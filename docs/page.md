@@ -1,8 +1,6 @@
 ---
-title: Neue Seite
-nav_order: 3
+title: Page
+layout: home
 ---
 
-# Neue Seite
-
-Dies ist eine neue Seite in Just the Docs.
+Test

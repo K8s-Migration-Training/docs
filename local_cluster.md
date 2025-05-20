@@ -1,27 +1,33 @@
 ---
-title: Page
+title: Lektion 0
 layout: home
 ---
 
-Damit du ein Kubernetes-Cluster hast, welches du in die Cloud migrieren kannst, kannst du dir folgendes Repository Klonen.
+Um ein Kubernetes-Cluster lokal aufzusetzen, das du später in die Cloud migrieren kannst, klone bitte das folgende Repository:
 
-[text](https://github.com/K8s-Migration-Training/infrastructure)
+[Zum Repository](https://github.com/K8s-Migration-Training/infrastructure)
 
-Um das Cluster Lokal bei dir zu installieren, brauchst du folgendes:
+### Voraussetzungen
 
-Windows 11 Pro
-Vagrant
-Hyper-V aktiviert
+Für die lokale Installation benötigst du:
 
-Starte ein Termin/Console als administrator
+- Windows 11 Pro
+- Vagrant
+- Aktiviertes Hyper-V
 
-cd ../infrastrcture
+### Installation
 
-vagrant up --provider=hyperv
+1. Öffne ein Terminal oder die Konsole **als Administrator**.
+2. Navigiere in das Infrastrukturverzeichnis:
 
-Gebe deinen Windows Username und Password ein. Falls du kein Passwort gesetzt hast, musst du ein Passwort setzten und deinen Computer neustarten.
+   ```bash
+   cd ../infrastructure
+   ```
 
-Um das Cluster später in die Cloud zu migrieren ist eine Azure Subscription notwendig.
+3. vagrant up --provider=hyperv
+4. Gib deinen Windows-Benutzernamen und dein Passwort ein
 
-Bitte richte dir hier eine Subscription ein: https://azure.microsoft.com/en-us
-Falls du Student bist, bekommst du 100 Euro Guthaben.
+### Vorbereitung für die Cloud-Migration
+
+Für die spätere Migration in die Cloud benötigst du eine Azure Subscription. Du kannst dir eine hier einrichten:
+https://azure.microsoft.com/en-us

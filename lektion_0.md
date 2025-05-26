@@ -24,8 +24,13 @@ Für die lokale Installation benötigst du:
    cd ../infrastructure
    ```
 
-3. vagrant up --provider=hyperv
-4. Gib deinen Windows-Benutzernamen und dein Passwort ein
+3. Starte nun die VMs mit Vagrant.
+
+```bash
+   vagrant up --provider=hyperv
+```
+
+4. Gib deinen Windows-Benutzernamen und dein Passwort ein, falls danach gefragt wird.
 
 ### Vorbereitung für die Cloud-Migration
 

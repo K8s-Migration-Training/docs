@@ -3,7 +3,7 @@ title: Lektion 1 - Referenzcluster auf Azure aufsetzten
 layout: home
 ---
 
-In dieser Lektion lernst du, wie du mithilfe von Terraform das vorgefertigte Referenzcluster auf Azure erstellst.
+Lernziel: In dieser Lektion lernst du, wie du mithilfe von Terraform das vorgefertigte Referenzcluster auf Azure erstellst.
 
 Klone zunächst das folgende Cluster:
 

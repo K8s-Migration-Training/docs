@@ -3,7 +3,7 @@ title: Lektion 0 - Installation des On-Premises Clusters
 layout: home
 ---
 
-In dieser Lektion lernst du, wie du mit Vagrant das On-Premises Cluster lokal auf deinem Computer aufsetzt, welches später in die Cloud migriert werden soll.
+Lernziel: In dieser Lektion lernst du, wie du mit Vagrant das On-Premises Cluster lokal auf deinem Computer aufsetzt, welches später in die Cloud migriert werden soll.
 
 Klone zunächst das folgende Cluster:
 
@@ -40,6 +40,6 @@ Wie du Hyper-V aktivierst, findest du [Hier](https://learn.microsoft.com/de-de/w
 
 ```bash
    vagrant ssh master
-   /shared/scripts/runmanifest.sh
-   /shared/scripts/monitoring.sh
+   sudo /shared/runmanifest.sh
+   sudo /shared/monitoring.sh
 ```

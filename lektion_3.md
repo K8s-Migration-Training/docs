@@ -3,7 +3,7 @@ title: Lektion 2 - Vorgehensmodell
 layout: home
 ---
 
-Die Miration kann mit verschiedenen Vorgehensmodellen durchgeführt werden. Die betriebliche Praxis nutzt seit einiger Zeit agile Vorgehensmodelle
+Lernziel: Die Miration kann mit verschiedenen Vorgehensmodellen durchgeführt werden. Die betriebliche Praxis nutzt seit einiger Zeit agile Vorgehensmodelle
 wie Scrum. Doch können lineare Vorgehensmodelle für einige Projekttypen sinnvoll sein z. B. wenn die Anforderungen von Anfang an klar sind oder
 die Projektdauer nicht besonders lang. Um zu Entscheiden, welches Vorgehensmodell in der Praxis sinnvoll ist, kann die stacey matrix genutzt werden.
 

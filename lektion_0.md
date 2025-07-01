@@ -1,9 +1,11 @@
 ---
-title: Lektion 0
+title: Lektion 0 - Installation des On-Premises Clusters
 layout: home
 ---
 
-Um ein Kubernetes-Cluster lokal aufzusetzen, das du später in die Cloud migrieren kannst, klone bitte das folgende Repository:
+In dieser Lektion lernst du, wie du mit Vagrant das On-Premises Cluster lokal auf deinem Computer aufsetzt, welches später in die Cloud migriert werden soll.
+
+Klone zunächst das folgende Cluster:
 
 [Zum Repository](https://github.com/K8s-Migration-Training/infrastructure)
 
@@ -14,6 +16,8 @@ Für die lokale Installation benötigst du:
 - Windows 11 Pro
 - Vagrant
 - Aktiviertes Hyper-V
+
+Wie du Hyper-V aktivierst, findest du [Hier](https://learn.microsoft.com/de-de/windows-server/virtualization/hyper-v/get-started/install-hyper-v?tabs=powershell&pivots=windows)
 
 ### Installation
 
@@ -32,7 +36,10 @@ Für die lokale Installation benötigst du:
 
 4. Gib deinen Windows-Benutzernamen und dein Passwort ein, falls danach gefragt wird.
 
-### Vorbereitung für die Cloud-Migration
+5. Verbinde dich nur mit dem Kubernetes Cluster und führe die folgende Datei aus:
 
-Für die spätere Migration in die Cloud benötigst du eine Azure Subscription. Du kannst dir eine hier einrichten:
-https://azure.microsoft.com/en-us
+```bash
+   vagrant ssh master
+   /shared/scripts/runmanifest.sh
+   /shared/scripts/monitoring.sh
+```

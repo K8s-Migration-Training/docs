@@ -24,9 +24,9 @@ Wie du Hyper-V aktivierst, findest du [Hier](https://learn.microsoft.com/de-de/w
 1. Öffne ein Terminal oder die Konsole **als Administrator**.
 2. Navigiere in das Infrastrukturverzeichnis:
 
-   ```bash
+```bash
    cd ../infrastructure
-   ```
+```
 
 3. Starte nun die VMs mit Vagrant.
 

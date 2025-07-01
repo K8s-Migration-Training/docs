@@ -9,7 +9,7 @@ die Projektdauer nicht besonders lang. Um zu Entscheiden, welches Vorgehensmodel
 
 In dieser Schulung wird das Wasserfallmodell genutzt, welcher die Migration in die folgenden Phasen aufteilt:
 
-1. Anforderungsanalyse
+1. Analyse
 
 2. Systemdesign
 

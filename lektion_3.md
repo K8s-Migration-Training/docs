@@ -1,22 +1,12 @@
 ---
-title: Lektion 2 - Vorgehensmodell
+title: Lektion 2 - Methoden der Cloud-Migration
 layout: home
 ---
 
-Lernziel: Die Miration kann mit verschiedenen Vorgehensmodellen durchgeführt werden. Die betriebliche Praxis nutzt seit einiger Zeit agile Vorgehensmodelle
-wie Scrum. Doch können lineare Vorgehensmodelle für einige Projekttypen sinnvoll sein z. B. wenn die Anforderungen von Anfang an klar sind oder
-die Projektdauer nicht besonders lang. Um zu Entscheiden, welches Vorgehensmodell in der Praxis sinnvoll ist, kann die stacey matrix genutzt werden.
+Bei der Migration von IT-Systemen in die Cloud stehen Unternehmen verschiedene Methoden zur Verfügung, je nach Anforderungen, vorhandener Infrastruktur und gewünschtem Modernisierungsgrad. Zwei gängige Ansätze sind „Lift-and-Shift“ und „Replattforming“.
 
-In dieser Schulung wird das Wasserfallmodell genutzt, welcher die Migration in die folgenden Phasen aufteilt:
+**Lift-and-Shift**, auch bekannt als Rehosting, beschreibt die direkte Übertragung bestehender Anwendungen in die Cloud, ohne grundlegende Änderungen an ihrer Architektur vorzunehmen. Diese Methode ist schnell umsetzbar und erfordert vergleichsweise wenig Aufwand. Der Hauptvorteil liegt darin, dass Unternehmen ihre Systeme kurzfristig in die Cloud überführen können, um z. B. von skalierbaren Ressourcen oder Ausfallsicherheit zu profitieren. Allerdings schöpft diese Methode das Potenzial der Cloud nicht vollständig aus, da die Anwendungen weiterhin so funktionieren wie zuvor nur auf einer anderen Infrastruktur.
 
-1. Analyse
+**Replattforming** geht einen Schritt weiter: Dabei wird die Anwendung ebenfalls in die Cloud migriert, jedoch werden kleinere Anpassungen vorgenommen, um bestimmte Cloud-native Funktionen zu nutzen. Dies kann z. B. die Nutzung eines verwalteten Datenbankdienstes oder die Anpassung der Anwendung für eine effizientere Skalierung beinhalten. Replattforming ist in der Regel mit einem moderaten Mehraufwand verbunden, bietet dafür aber bessere Performance, geringere Betriebskosten oder eine verbesserte Wartbarkeit in der Cloud-Umgebung.
 
-2. Systemdesign
-
-3. Implementierung
-
-4. Integration und Tests
-
-5. Deployment
-
-6. Betrieb und Wartung
+Beide Methoden bieten unterschiedliche Vorteile und sollten abhängig vom Ziel und Reifegrad der IT-Strategie gewählt werden. Während Lift-and-Shift vor allem für schnelle Migrationen geeignet ist, erlaubt Replattforming einen ausgewogenen Mittelweg zwischen Aufwand und Nutzen.

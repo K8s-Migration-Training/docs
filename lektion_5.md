@@ -19,7 +19,9 @@ Ingress Controller installieren
 
 ```bash
    helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
-   helm install nginx ingress-nginx/ingress-nginx
+   helm repo update
+
+   helm install nginx-ingress ingress-nginx/ingress-nginx --namespace ingress-nginx --create-namespace --set controller.service.externalTrafficPolicy=Local
 ```
 
 Keycloak installieren

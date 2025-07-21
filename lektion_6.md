@@ -1,5 +1,5 @@
 ---
-title: Lektion 6 - Erster Workload in der Cloud
+title: Lektion 6 - Migration des Frontend-Microservices
 layout: home
 ---
 
@@ -106,6 +106,6 @@ spec:
 Ergebnis
 Der Frontend-Service ist unter /frontend erreichbar und über OAuth2 via Azure Entra ID abgesichert.
 
-Weitere Aufgaben: migriere noch den Event- und Ticketservice
+Weitere Aufgaben: Migriere noch den Event- und Ticketservice
 
 [Link zur Umfrage]

@@ -1,5 +1,5 @@
 ---
-title: Lektion 1 - Einführung & Zielsetzung
+title: Lektion 2 - Einführung & Zielsetzung
 layout: home
 ---
 

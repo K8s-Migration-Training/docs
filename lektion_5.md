@@ -83,3 +83,5 @@ kubectl get service nginx-service
 ```
 
 Warte ein bis alles hochgefahren ist und prüfer ob alles über deinen Browser erreichbar ist.
+
+[Link zur Umfrage]

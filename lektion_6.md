@@ -107,3 +107,5 @@ Ergebnis
 Der Frontend-Service ist unter /frontend erreichbar und über OAuth2 via Azure Entra ID abgesichert.
 
 Weitere Aufgaben: migriere noch den Event- und Ticketservice
+
+[Link zur Umfrage]

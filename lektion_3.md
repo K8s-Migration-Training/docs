@@ -1,5 +1,5 @@
 ---
-title: Lektion 2 - Methoden der Cloud-Migration
+title: Lektion 3 - Methoden der Cloud-Migration
 layout: home
 ---
 

@@ -26,3 +26,5 @@ Greife auf die UI zu
 Füge Prometheus als Datenquelle in Grafana hinzu
 
 Teste dein Monitoring-Setup
+
+[Link zur Umfrage]

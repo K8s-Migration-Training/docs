@@ -53,3 +53,5 @@ Prüfe, ob dein Cluster erreichbar ist:
 ```bash
    kubectl get nodes
 ```
+
+[Link zur Umfrage]

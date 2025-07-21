@@ -1,5 +1,5 @@
 ---
-title: Lektion 2 - Analyse des Ist-Zustands des On-Premises Clusters
+title: Lektion 4 - Analyse des Ist-Zustands des On-Premises Clusters
 layout: home
 ---
 
@@ -48,3 +48,9 @@ den Namespaces.
 ```
 
 Hiermit siehst du alle Deployments, welche im Cluster vorhanden sind.
+
+Weitere Aufgaben:
+Schaue dir die Microservices und die an, welche im Cluster installiert sind:
+[Zum Repository](https://github.com/K8s-Migration-Training/microservice)
+
+[Link zur Umfrage]
